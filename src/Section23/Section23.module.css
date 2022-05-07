@@ -1,0 +1,10 @@
+.bgimage{
+background: url("../image/29.jpg");
+background-size: cover;
+height:46vw;    
+object-position: 50% 50%;     
+}
+.bgcolor{
+background-color: rgba(0, 0, 0, 0.288);
+height:46vw;      
+}

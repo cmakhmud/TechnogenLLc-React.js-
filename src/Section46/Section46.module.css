@@ -1,0 +1,49 @@
+.bgimage{
+background: url("../image/44.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height:46vw;
+object-position: 50% 50%;     
+}
+.bgcolor{
+height:46vw ;
+background: #00000069;        
+}
+.text{
+text-align: center;
+padding-top: 240px;    
+}
+.text h1{
+width: 70%;
+margin: 0 auto;  
+text-shadow: 2px 2px 2px black;  
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;    
+font-size: 50px;
+letter-spacing: 1.2px;
+line-height: 60px;
+color: #fff;
+}
+.text p{
+width: 50%;
+margin: 0 auto;
+color: #fff; 
+line-height: 28px; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+font-size: 22px;
+}
+.but{
+padding-top: 30px;    
+}
+.but a{
+font-size: 18px; 
+font-weight: 600;
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+padding: 12px 15px;  
+border-radius: 15px;
+border: none;
+background: #fff;
+transition: 0.3s all ease-in-out;
+}

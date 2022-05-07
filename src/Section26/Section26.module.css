@@ -1,0 +1,41 @@
+.container{
+background-color: #f0f5fb;    
+height: 350px;
+}
+
+.title{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+text-align: center;    
+}
+.title h1{
+font-size: 40px; 
+font-weight: 600;   
+}
+.title p{
+font-size: 22px;
+margin-top: 10px;    
+}
+.cards{
+display: flex;
+justify-content: space-evenly;    
+text-align: center;
+padding-top: 40px;
+}
+.card i{
+font-size: 40px;   
+}
+.text{
+margin-top: 10px;    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.text h1{
+font-size: 25px;
+font-weight: 600;    
+}
+.text p{
+padding-top: 8px;  
+line-height: 22px;
+width: 80%;  
+margin: 0 auto;
+font-size: 17px;
+}
