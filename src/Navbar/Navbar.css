@@ -1,0 +1,335 @@
+nav {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+.wrapper {
+    position: fixed;
+    width: 100%;
+    padding: 0px 80px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 400ms linear;
+}
+
+.isActiveWrapper{
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    padding: 0px 80px;
+    line-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #000 !important;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 12%);
+    position: fixed;
+    transition: background-color 400ms linear;
+}
+.isActiveWrapper .nav-links li a{
+color: #000;    
+}
+.isActiveWrapper .logo a {
+color: #000;    
+}
+
+.logo a {
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: inline-flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.mobile-item {
+    display: none;
+}
+
+.nav-links #drop-menu {
+    position: absolute;
+    background: #fff;
+    width: 230px;
+    line-height: 45px;
+    top: 85px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-links li:hover #drop-menu,
+.nav-links li:hover .mega-box {
+    transition: all 0.3s ease;
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+#drop-menu li a,
+#drop-menu1 li a {
+    width: 100%;
+    display: block;
+    padding: 0 0 0 15px;
+    font-weight: 400;
+    color: #000;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+    border-radius: 0px;
+}
+
+.mega-box {
+    position: absolute;
+    left: -0px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 30px; */
+    top: 85px;
+    opacity: 0;
+    visibility: hidden;
+    box-sizing: content-box;
+}
+
+.content {
+    background:#fff;
+    padding: 22px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.row {
+    width: calc(20% -15px);
+    line-height: 45px;
+}
+
+#mega-links {
+    margin-left: -40px;
+    border-left: 1px solid rgba(128, 128, 128, 0.479);
+}
+
+#mega-links li {
+    padding: 0 15px;
+}
+
+#mega-links li a {
+    padding: 0 20px;
+    color: #000;
+    font-size: 17px;
+    display: block;
+}
+
+/* #mega-links li a:hover {
+    color: #f2f2f2;
+} */
+
+.btn {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: none !important;
+}
+
+.btn.close-btn {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+/* .elaqe{
+    width: 100%;
+    height: 100%;
+    color: white;
+} */
+
+@media screen and (max-width: 1110px) {
+    .wrapper .btn {
+        display: block;
+    }
+
+    .wrapper .nav-links {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        max-width: 350px;
+        top: 0;
+        left: -100%;
+        background: #242526;
+        display: block;
+        padding: 50px 10px;
+        line-height: 50px;
+        overflow-y: auto;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
+        transition: all 0.3s ease;
+    }
+    .isActiveWrapper .nav-links {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        color: #fff;
+        max-width: 350px;
+        top: 0;
+        left: -100%;
+        background: #242526;
+        display: block;
+        padding: 50px 10px;
+        line-height: 50px;
+        overflow-y: auto;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
+        transition: all 0.3s ease;
+    }
+    /* custom scroll bar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #242526;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #3A3B3C;
+    }
+    .nav-links #drop-menu{
+        background: #242526;    
+    }
+    .nav-links li {
+        margin: 15px 10px;
+    }
+
+    .nav-links li a {
+        padding: 0 20px;
+        display: block;
+        color: #fff !important;
+        border: none !important;
+        font-size: 20px;
+    }
+
+    .nav-links #drop-menu {
+        position: static;
+        opacity: 1;
+        top: 65px;
+        visibility: visible;
+        padding-left: 20px;
+        width: 100%;
+        display: none;
+        overflow: hidden;
+        box-shadow: none;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links #drop-menu.active {
+        display: block;
+    }
+
+    .nav-links .desktop-item {
+        display: none;
+    }
+
+    .nav-links .mobile-item {
+        display: block;
+        color: #f2f2f2;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links .mobile-item:hover {
+        background: #3A3B3C;
+    }
+
+    #drop-menu li {
+        margin: 0;
+    }
+
+    #drop-menu li a {
+        border-radius: 5px;
+        font-size: 18px;
+    }
+
+    .mega-box {
+        position: static;
+        top: 65px;
+        opacity: 1;
+        visibility: visible;
+        padding: 0 20px;
+        display: none;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .mega-box.active {
+        display: block;
+    }
+
+    .mega-box .content {
+        box-shadow: none;
+        flex-direction: column;
+        padding: 20px 20px 0 20px;
+        background: #242526;  
+    }
+
+    .mega-box .content .row:not(:first-child) {
+        width: 100%;
+        margin-bottom: 15px;
+        border-top: 2px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .wrapper .btn {
+        display: block !important;
+        color:  rgb(255, 255, 255) !important;
+    }
+    .isActiveWrapper .btn{
+        display: block !important;
+        color:  black !important;   
+    }
+    .content .row #mega-links {
+        border-left: 0px;
+        padding-left: 15px;
+    }
+
+    .row #mega-links li {
+        margin: 0;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    /* .dropdown.active{
+display: block;  
+} */
+    #dropdown {
+        display: none !important;
+    }
+
+    #dropdown#active {
+        display: block !important;
+    }
+}
