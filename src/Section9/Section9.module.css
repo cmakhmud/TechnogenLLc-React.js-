@@ -1,0 +1,113 @@
+.bgcolor{
+background-color: #f0f5fb;    
+}
+.title h1{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+font-size: 45px;
+padding-top: 40px; 
+letter-spacing: 1.2px;   
+}
+.container{
+width: 1300px;
+height: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items:  center; 
+color: #fff;
+padding-top: 50px;
+}
+.container .card{
+width: 380px;
+height: auto;
+padding: 10px 0px;
+margin: 0 15px;
+text-align: center;  
+margin-bottom: 30px;
+background: linear-gradient(135deg,#02a3ee 0%, #0394d8de 100%); 
+border-radius: 15px; 
+box-shadow: 2px 5px 10px rgb(7, 7, 7,0.3);
+transition: transform 0.3s;
+}
+#card1{
+height: 845px;    
+}
+#card2{
+height: 880px;    
+}
+.container .card:hover{
+transform: scale(1.050);    
+}
+.container .card .cardtitle{
+padding: 30px 20px;
+border-bottom: 2px solid #fff;
+}
+.container .card .cardtitle h2{
+font-size: 35px;
+padding-bottom: 15px;
+color: #fff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .card .cardtitle p{
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .card .cardcontent ul{
+padding: 15px 0px;
+padding-bottom: 20px;
+}
+.container .card .cardcontent button{
+width: 120px;
+padding: 10px 20px;
+background: #fff;
+border-radius: 20px;
+margin-bottom: 10px;
+outline: none;
+border: none;   
+transition: 0.3s; 
+}
+.container .card .cardcontent button:hover{
+background: #17ead9;    
+letter-spacing: 1.2px;
+}
+.container .card .cardcontent button a{
+color: #000;    
+font-size: 16px;
+}
+.icons{
+display: flex;    
+line-height: 25px; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 15px;
+}
+.icon span{
+padding: 0 15px !important;
+font-size: 20px;
+}
+.icon p{
+font-size: 18px;    
+}
+.but1{
+margin-top: 408px;    
+}
+.but2{
+margin-top: 128px;    
+}
+.but3{
+margin-top:545px;    
+}
+#text{
+width: 60%;
+margin: 0 auto;  
+}
+#text p{
+font-weight: 600;
+font-size: 22px;  
+line-height: 35px; 
+}
+#text1{
+padding: 5px;    
+}

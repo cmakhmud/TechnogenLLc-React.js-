@@ -1,0 +1,40 @@
+.bgimage{
+ background: url("../image/1.png");
+ background-size: cover;
+ height: 380px;   
+ background-position: center;
+ margin-top: 50px;
+}
+.bgcolor{
+height: 380px;    
+background: #008acabd;    
+}
+.title h1{
+color: #fff; 
+font-size: 25px; 
+width: 65%;
+letter-spacing: 1.1px;
+margin: 0 auto; 
+text-align: center;
+line-height: 30px;
+font-weight: bold;
+padding-top: 100px; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+}
+.numbers{
+width: 90%;  
+margin: 0 auto; 
+display: flex;
+justify-content: space-evenly; 
+text-align: center;   
+margin-top: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+color: #fff;
+}
+.number h1{
+font-size: 55px; 
+font-weight: bold;   
+}
+.number p{
+font-size: 25px;    
+}

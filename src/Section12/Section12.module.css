@@ -1,0 +1,56 @@
+.bgcolor{
+background-color: #f0f5fb; 
+height: 80vw;  
+}
+.shadow{
+padding-top: 80px;
+}
+.box{
+background: #fff;
+width: 90%;
+margin: 0 auto;
+height: 72vw;
+border-radius: 15px;
+}
+.cards{
+display: flex; 
+}
+.card{
+width: 50%; 
+margin: 0 auto;   
+}
+.card img{   
+width: 510px;
+height: 900px;
+border-radius: 30px;
+object-fit: cover;    
+margin: 40px 55px;
+}
+.text1{
+margin-top: 50px;    
+}
+.text1 p{
+width: 90%;    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+margin-top: 20px;
+padding: 0 30px;
+font-size: 18px;
+line-height: 25px;
+}
+.text2 h1{
+width: 90%;    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+margin-top: 20px;
+padding: 0 30px;
+font-size: 22px;
+font-weight: 600;
+line-height: 25px;
+}
+.text2 p{
+width: 95%;    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+margin-top: 10px;
+padding: 0 30px;
+line-height: 25px;
+font-size: 18px;  
+}
